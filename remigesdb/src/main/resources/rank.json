@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "rankdesc": "CEO",
+      "parentrankid": null
+    },
+    {
+      "id": 2,
+      "rankdesc": "Vice President",
+      "parentrankid": {"id":1}
+    },
+    {
+      "id": 3,
+      "rankdesc": "Senior Manager",
+      "parentrankid": {"id":2}
+    },
+    {
+      "id": 4,
+      "rankdesc": "Manager",
+      "parentrankid": {"id":3}
+    },
+    {
+      "id": 5,
+      "rankdesc": "Assistant Manager",
+      "parentrankid": {"id":4}
+    },
+    {
+      "id": 6,
+      "rankdesc": "Lead Engineer",
+      "parentrankid": {"id":5}
+    },
+    {
+      "id": 7,
+      "rankdesc": "Senior Engineer",
+      "parentrankid": {"id":6}
+    },
+    {
+      "id": 8,
+      "rankdesc": "Engineer",
+      "parentrankid": {"id":7}
+    },
+    {
+      "id": 9,
+      "rankdesc": "Junior Engineer",
+      "parentrankid":{"id":8}
+    },
+    {
+      "id": 10,
+      "rankdesc": "Intern",
+      "parentrankid":{"id":9}
+    }
+  ]
+  
